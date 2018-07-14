@@ -39,7 +39,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#header_pages:
+header_pages:
+  - tutorials.md
 #  - introduction.md
 #  - install.md
 #  - runs.md
