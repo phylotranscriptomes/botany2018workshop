@@ -68,7 +68,7 @@ The pipeline does:
 
 The script **filter_fq.py** will run all these steps for a given mRNA library. For example run:
 
-	python ~/Desktop/botany_2018/scripts/filter_fq.py SRR6435359red_1.fastq SRR6435359red_2.fastq Caryophyllales both 8 .
+	python ~/Desktop/botany_2018/scripts/filter_fq.py SRR6435359red_1.fastq.gz SRR6435359red_2.fastq.gz Caryophyllales both 8 .
 
 The first two arguments are the read files. **Caryophyllales** is the plant Order that bowtie2 will used to create a database to filter the organelle reads and can be replaced with any plant Order where you study group belongs. The argument 'both' speciefies to filter cpDNA and mtDNA (can be used only one of those if wanted). *8* is the number of cpus or threads to use and the final argument **"."** represent the output directory, in this case the current directory.
 
