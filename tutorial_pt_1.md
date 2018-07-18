@@ -55,7 +55,7 @@ Now you're ready to run any script from the workshop.
 In this section we'll show you how to process the reads before _de novo_ assembly. We use this pipeline either for **SRA** or newly sequence data. 
 For this example we subsample a library of _Iresine__rhizomatosa_. The two .gz files contain read pairs from a stranded mRNA library prepared using the KAPA stranded RNA-seq kit with poly-A enrichment. 
 
-	cd Desktop/botany_2018/examples/read_proc_assembly_trans/data/
+	cd ~/Desktop/botany_2018/examples/read_proc_assembly_trans/data/
 
 The pipeline does:
 
