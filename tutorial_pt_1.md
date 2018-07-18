@@ -137,6 +137,7 @@ Corset clusters transcripts from the same putative gene based in read share and 
 
 ##### Run corset and extract representative transcript
 
+	cd ~/Desktop/botany_2018/examples/read_proc_assembly_trans/filtered_assembly
 	python ~/Desktop/botany_2018/scripts/corset_wrapper.py Irerhi.filtered_transcripts.fa ~/Desktop/botany_2018/examples/read_proc_assembly_trans/filtered_reads/SRR6435359red_1.overep_filtered.fq.gz ~/Desktop/botany_2018/examples/read_proc_assembly_trans/filtered_reads/SRR6435359red_2.overep_filtered.fq.gz 8 . salmon
 
 This will produced the file **Irerhi_salmon-clusters.txt** that is gonna be used to select the representative trascript
