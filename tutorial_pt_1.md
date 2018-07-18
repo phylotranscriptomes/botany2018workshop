@@ -94,7 +94,7 @@ Choose a taxonID for each data set. This taxonID will be used throughout the ana
 
 The assembly can take several hours (even days, depending of the size of the library) and uses a lot of resources. Here we will try to assemble the subsample library of _Iresine__rhizomatosa_. Remember that you need to used the filtered reads for the _de novo_ assembly.
 
-	python ~/Desktop/botany_2018/scripts/trinity_wrapper.py SRR6435359red_1.overep_filtered.fq SRR6435359red_2.overep_filtered.fq Irerhi 8 30 stranded .
+	python ~/Desktop/botany_2018/scripts/trinity_wrapper.py SRR6435359red_1.overep_filtered.fq.gz SRR6435359red_2.overep_filtered.fq.gz Irerhi 8 30 stranded .
 
 The first two arguments are the filtered reads. **Irerhi** is the taxonID. **8** is the number of threads. **30** is maximun amount of memory RAM to used. **stranded** specifies if the library is stranded or not (stranded or non-stranded). The final argument **"."** represent the output directory, in this case the current directory.
 
