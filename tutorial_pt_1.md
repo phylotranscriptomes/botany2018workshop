@@ -38,8 +38,6 @@ When the cloning is done do:
 $ cd botany_2018/
 $ bash run_this_first.sh
 
-*Enter you cyverse password when asked*
-
 This will setup and install missing dependencies. When this process is done, log out from the instance and log in back, so the changes make effect:
 
 $ exit
