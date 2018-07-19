@@ -21,12 +21,6 @@ Enter your cyverse password.
 
 ### Part 2: Download workshop materials and run the setup script
 
-Once you logged in the Atmosphere instance type:
-
-	ls
-
-You'll see only a folder called **Desktop**
-
 Change directory to **Desktop** and clone git repository with materials.
 
 	cd Desktop/
@@ -37,7 +31,6 @@ When the cloning is done do:
 
 	cd botany_2018/
 	bash run_this_first.sh
-
 
 This will setup and install missing dependencies. When this process is done, log out from the instance and log in back, so the changes make effect:
 
@@ -58,6 +51,8 @@ Click in the **File** tab and **New conection**
 In **VNC server** add the IP address following of **:1**. eg: 128.196.142.84:1 and click OK
 
 Double click in the screen icon that has IP address that you just entered
+
+Click **continue**
 
 In the Authentication window enter your Cyverse's user and password
 
@@ -176,9 +171,11 @@ This will produced the CDS and PEP files **Irerhi.cds.fa** and **Irerhi.pep.fa**
 
 Notice that the format of the sequences if taxonID@seqID. The special character "@" is used to separate taxonID and seqID.
 
+### Part 6: Baited homology search using SWIPE
 
+Due to time constrains we're not going over this part. Click [here](https://bitbucket.org/dfmoralesb/botany_2018/src/master/swipe_tutorial.md) for instructions of how to run this part of the tutorial.
 
-### Part 6: all-by-all homology search
+### Part 7: all-by-all homology search
 
 The input sequences for homology inference can be cds or peptides depending on how closely-related the focal taxa are. We provided a small data set of five taxa in the directory ~/Desktop/botany_2018/examples/homology_inference/data. Because these five species are fairly closely-related (< 50 my), using cds for mcl can avoid creating large clusters without loosing sequences.
 
@@ -233,7 +230,11 @@ Align each cluster, trim alignment, and infer a tree. For tutorial purpose let's
 
 You can visualize some of the trees and alignments in 3_clusters. You can see that tips that are 0.4 or more are pretty much junk. There are also some tips that are much longer than near-by tips that are probably results of assembly artifacts.
 
-Trim spurious tips with [TreeShrink](https://github.com/uym2/TreeShrink)
+**In the terminal of the GUI type:**
+
+	figtree ~/Desktop/botany_2018/examples/homology_inference/3_clusters/cluster230.raxml.tre
+
+Trim these spurious tips with [TreeShrink](https://github.com/uym2/TreeShrink)
 
 	python ~/Desktop/botany_2018/scripts/tree_shrink_wrapper.py 3_clusters .tre
 
@@ -257,7 +258,8 @@ Calculate the final homolog trees and bootstrap in 5_homolog
 
 	python ~/Desktop/botany_2018/scripts/fasta_to_tree_pxclsq.py 5_homolog 2 dna y
 
-### Part 7: Paralogy pruning to infer orthologs (try them out!).
+### Part 8: Paralogy pruning to infer orthologs (try them out!).
+
 
 ####1to1: only look at homologs that are strictly one-to-one. No cutting is carried out.
 
@@ -276,4 +278,5 @@ The script will write one-to-one ortholog trees to the directory ortho_121/tre.
 	python ~/Desktop/botany_2018/scripts/prune_paralogs_RT.py 5_homolog .tre ortho_RT/tre 4 in_out
 
 All the orthologs have full taxon occupancy (5 for 1-to-1 and 4 for RT). 
+
 
