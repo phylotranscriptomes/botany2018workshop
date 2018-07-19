@@ -50,7 +50,7 @@ Now you're ready to run any script from the workshop.
 
 #### To load GUI (mostly to open FigTree, but you can also use the Terminal here)
 
-Download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) and install the corresponding flavor for you OS.
+Download [VNC viewer](https://www.realvnc.com/en/connect/download/viewer/) and install the corresponding flavor for your OS.
 
 Open VNC viewer
 
@@ -277,3 +277,4 @@ $ mkdir ortho_RT/tre
 $ python ~/Desktop/botany_2018/scripts/prune_paralogs_RT.py 5_homolog .tre ortho_RT/tre 4 in_out
 
 All the orthologs have full taxon occupancy (5 for 1-to-1 and 4 for RT). 
+
