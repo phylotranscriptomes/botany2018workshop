@@ -257,7 +257,7 @@ Calculate the final homolog trees and bootstrap in 5_homolog
 
 	python ~/Desktop/botany_2018/scripts/fasta_to_tree_pxclsq.py 5_homolog 2 dna y
 
-#### Paralogy pruning to infer orthologs (try them out!).
+### Part 7: Paralogy pruning to infer orthologs (try them out!).
 
 ####1to1: only look at homologs that are strictly one-to-one. No cutting is carried out.
 
