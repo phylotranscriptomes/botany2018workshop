@@ -41,6 +41,7 @@ plugins:
 
 header_pages:
   - tutorials.md
+  - helpfullinks.md
 #  - introduction.md
 #  - install.md
 #  - runs.md
