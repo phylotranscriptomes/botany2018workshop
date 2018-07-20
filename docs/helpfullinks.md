@@ -6,11 +6,6 @@ permalink: /helpfullinks/
 
 Here are just a few helpful links that may help
 
-
-- [Cyverse](#cyverse)
-- [Assembly and Homology](#assembly-and-homology)
-- [Tree things](#tree-things)
-
 ## Cyverse
 
 - [Cyverse](http://www.cyverse.org/)
