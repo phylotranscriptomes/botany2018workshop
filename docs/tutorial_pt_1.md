@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: Assembly and More Tutorial
+permalink: /tutorial_pt_1/
+---
 This tutorial is for the Botany 2018 workshop "Transcriptome analyses for non-model plants: phylogenomics and more" Jul 22, 2018. All python scripts were written in python 2.7. 
 
 ### Part 1: Lauch Atmosphere Image

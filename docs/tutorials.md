@@ -11,7 +11,7 @@ permalink: /tutorials/
 
 ## Cyverse, Assembly, Homology
 
-- [Tutorial](https://phylotranscriptomes.github.io/botany2018workshop/tutorials_pt_1.md)
+- [Tutorial](https://phylotranscriptomes.github.io/botany2018workshop/tutorial_pt_1/)
 
 ## Trees, Conflict
 
