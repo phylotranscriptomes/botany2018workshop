@@ -265,7 +265,7 @@ Calculate the final homolog trees and bootstrap in 5_homolog
 ### Part 8: Paralogy pruning to infer orthologs (try them out!).
 
 
-####1to1: only look at homologs that are strictly one-to-one. No cutting is carried out.
+#### 1to1: only look at homologs that are strictly one-to-one. No cutting is carried out.
 
 	cd ~/Desktop/botany_2018/examples/homology_inference
 	mkdir ortho_121
@@ -274,7 +274,7 @@ Calculate the final homolog trees and bootstrap in 5_homolog
 
 The script will write one-to-one ortholog trees to the directory ortho_121/tre. 
 
-####RT: prune by extracting ingroup clades and then cut paralogs from root to tip. If no outgroup, only use those that do not have duplicated taxa. Compile a list of ingroup and outgroup taxonID, with each line begin with either "IN" or "OUT", followed by a tab, and then the taxonID.
+#### RT: prune by extracting ingroup clades and then cut paralogs from root to tip. If no outgroup, only use those that do not have duplicated taxa. Compile a list of ingroup and outgroup taxonID, with each line begin with either "IN" or "OUT", followed by a tab, and then the taxonID.
 
 	cd ~/Desktop/botany_2018/examples/homology_inference
 	mkdir ortho_RT
