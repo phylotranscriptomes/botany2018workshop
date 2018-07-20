@@ -15,5 +15,5 @@ permalink: /tutorials/
 
 ## Trees, Conflict
 
-- [ConflictWorkShop2.pdf](/assets/tutorials/ConflictWorkshop2.pdf)
+- [ConflictWorkShop2.pdf](/assets/tutorials/ConflictWorkShop2.pdf)
 
