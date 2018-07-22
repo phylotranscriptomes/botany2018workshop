@@ -7,8 +7,8 @@ permalink: /talks/
 ## Lectures
  - Overview - Stephen Smith
  - Experimental Design – Joe Walker
- - Assembly and translation – Ya Yang
- - Homology/Orthology/WGD detection – Ya Yang
+ - [Assembly and translation – Ya Yang](assets/talks/seq_processing_Yang.pdf)
+ - [Homology/Orthology/WGD detection – Ya Yang](assets/talks/homology_orthology_Yang.pdf)
  - Trees and Conflict – Stephen
 
 ## Exercises
