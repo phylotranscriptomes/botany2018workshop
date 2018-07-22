@@ -10,6 +10,12 @@ Here are just a few helpful links that may help
 
 - [Cyverse](http://www.cyverse.org/)
 
+## VirtualBox 
+
+VirtualBox will allow you to run your own virtual machine (CyVerse is for running it on another server)
+
+- [VirtualBox](https://www.virtualbox.org/)
+
 ## Assembly and Homology
 
 - [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
