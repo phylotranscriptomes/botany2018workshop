@@ -14,5 +14,5 @@ permalink: /talks/
 ## Exercises
  - Assembly and Translation Exercises – Diego Briones
  - Homology Orthology Exercises – Diego Briones
- - Tree Construction Exercises – Joe Walker
- - Conflict/Quartets - Joe Walker
+ - [Tree Construction Exercises – Joe Walker](assets/talks/SpeciesTreeAndConflictworkshop.pdf)
+ - [Conflict/Quartets - Joe Walker](assets/talks/SpeciesTreeAndConflictworkshop.pdf)
